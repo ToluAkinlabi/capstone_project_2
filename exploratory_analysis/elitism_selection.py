@@ -1,6 +1,7 @@
 ##############################################################################
 # Based on code from the 'Hands-On-Genetic-Algorithms-with-Python' repository
-# https://github.com/PacktPublishing/Hands-On-Genetic-Algorithms-with-Python/tree/master/Chapter08
+# Author: Eyal Wirsansky, ai4java
+# Link: https://github.com/PacktPublishing/Hands-On-Genetic-Algorithms-with-Python/tree/master/Chapter08
 ##############################################################################
 
 from deap import tools
@@ -62,5 +63,6 @@ def eaSimpleWithElitism(population, toolbox, cxpb, mutpb, ngen, stats=None,
         logbook.record(gen=gen, nevals=len(invalid_ind), **record)
         if verbose:
             print(logbook.stream)
+    print('Total evaluated estimators:', sum(logbook.select('nevals')))
 
     return population, logbook
