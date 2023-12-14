@@ -15,7 +15,7 @@
 ### Data Understanding and Analysis
 
 #### Understanding sources of data
-* [Machiine Failure Prediction](https://www.kaggle.com/datasets/dineshmanikanta/machine-failure-predictions/data)
+* [Machine Failure Prediction](https://www.kaggle.com/datasets/dineshmanikanta/machine-failure-predictions/data)
 
 #### Data Analysis Process
 
@@ -26,10 +26,10 @@
 
 
 #### Untuned model accuracy
-![Untuned Model]([https://raw.githubusercontent.com/ToluAkinlabi/capstone_project_2/main/images/untuned_model_accuracy_smooth_gradient.svg])
+![Untuned Model](https://raw.githubusercontent.com/ToluAkinlabi/capstone_project_2/main/images/untuned_model_accuracy_smooth_gradient.svg)
 
-#### Highest Median Profit Over Production Budget (POPB)
-![Tuned Model]([https://raw.githubusercontent.com/ToluAkinlabi/capstone_project_2/main/images/tuned_model_accuracy.svg])
+#### Tuned model accuracy
+![Tuned Model](https://raw.githubusercontent.com/ToluAkinlabi/capstone_project_2/main/images/tuned_model_accuracy.svg)
 
 
 ## Conclusion
