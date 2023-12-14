@@ -1,4 +1,4 @@
-# Capstone_project_2
+# Predicting Machine Failure
 ## Project Overview
 
 ### Navigating Repository:
