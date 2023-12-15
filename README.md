@@ -17,9 +17,11 @@
 #### Understanding sources of data
 * [Machine Failure Prediction](https://www.kaggle.com/datasets/dineshmanikanta/machine-failure-predictions/data)
 
+ 1. A CSV file is obtained from Kaggle and within the file is a large repository of machine failure data including: Machine type, Air temperature, Process temperature, Roational speed, Torque, Tool wear (min), machine failure (binary), TWF(binary), HDF(binary), PWF(binary), OSF(binary), and RNF(binary).
+
 #### Data Analysis Process
 
- 1. Collection: The data collection process is initiated by retrieving a csv file contained within kaggle. This csv file contains a large repository of machine failure data including: Machine type, Air temperature, Process temperature, Roational speed, Torque, Tool wear (min), machine failure (binary), TWF(binary), HDF(binary), PWF(binary), OSF(binary), and RNF(binary).
+ 1. Collection: The data collection process is initiated by retrieving a csv file contained within kaggle. 
  
  2. Cleaning: The initial dataset was imbalanced, contained multiple failure types, and contained binary, categorical, and continuous data on vastly different scales. Resampling, scaling, binary transformation, and consolidation techniques were utilized to clean the data prior to processing.
  
