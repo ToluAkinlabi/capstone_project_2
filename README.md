@@ -24,8 +24,6 @@ A single machine failure can grind an assembly line to a halt. If we can predict
 
  1. A CSV file is obtained from Kaggle and within the file is a large repository of machine failure data including: Machine type, Air temperature, Process temperature, Roational speed, Torque, Tool wear (min), machine failure (binary), TWF(binary), HDF(binary), PWF(binary), OSF(binary), and RNF(binary).
 
-#### Data Analysis Process
-
 ### Data Analysis Process
 
  1. Collection: The data collection process is initiated by retrieving a csv file contained within kaggle. 
